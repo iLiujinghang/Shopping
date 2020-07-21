@@ -1,0 +1,146 @@
+body{
+	overflow-y: auto;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	background: #f9f9f9;
+    color: #666;
+/*	min-width: 1226px;*/
+	font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.main-page{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+.layout{
+	width: 855px;
+	min-height: 550px;
+	margin-top: 180px;
+	display: block;
+	background-color: #FFF;
+}
+.logo{
+	float: left;
+	margin-left: 400px;
+	height: 55px;
+	width: 55px;
+	background-color: #ff6700;
+}
+.logo img{
+	width: 30px;
+	height: 20px;
+	padding-top: 18px;
+	padding-left: 13px;
+}
+.title{
+	font-size: 30px;
+	padding-top: 55px;
+	text-align: center;
+}
+.form{
+	width: 332px;
+	height: auto;
+	color: black;
+	margin: auto;
+    padding-right: 74px;
+}
+.field{
+	font-size: 14px;
+	float: left;
+    margin: auto;
+    padding-top: 10px;
+}
+.field-text{
+	width: 255px;
+	height: 40px;
+    float: right;
+	background-color: #FFF;
+}
+.field-icon{
+	height: 46px;
+	width: 46px;
+	background-color: #FFF;
+	border: 1px solid #e0e0e0;
+
+}
+.phone{
+	font-size: 14px;
+	float: left;
+    margin: auto;
+    padding-top: 31px;
+}
+.user-pwd{
+	width: 274px;
+	height: 40px;
+	background-color: #FFF;
+}
+.phone-number{
+	width: 255px;
+	height: 40px;
+    float: right;
+    margin-top: 15px;
+	background-color: #FFF;
+}
+.phone-icon{
+	width: 46px;
+	height: 46px;
+	background-color: #FFF;
+	border: 1px solid #e0e0e0;
+}
+.layout button{
+	width: 255px;
+	height: 40px;
+	border: 0px;
+	margin-top: 20px;
+    float: right;
+	background-color: #ff6700;
+}
+.layout button a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+.attention-footer{
+	text-align: center;
+	width: 855px;
+}
+.attention-footer p{
+	color: #9d9d9d;
+}
+.attention-footer p a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+.footer{
+	padding-top: 180px;
+	width: 100%;
+	text-align: center;
+}
+.language span a{
+	text-decoration: none;
+	padding-left: 5px;
+	color: #9d9d9d;
+}
+.language span a:hover{
+	color: black;
+}
+.span{
+	padding-left: 5px;
+	color: #9d9d9d;
+}
+.foot p{
+	color: #9d9d9d;
+}
+.foot p a{
+	text-decoration: none;
+	color: #9d9d9d;
+}
+.foot p a:hover{
+	color: black;
+}

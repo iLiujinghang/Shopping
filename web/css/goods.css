@@ -1,0 +1,538 @@
+body{
+    width: 100%;
+    margin: 0px;
+    color: #333;
+    min-width: 1612px;
+    font: 14px/1.5 "Helvetica Neue","Helvetica,Arial","Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei"
+    ,"sans-serif";
+}
+.gui-one{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    color: #b0b0b0;
+    background-attachment: scroll;
+    background-color: #333;
+}
+.gui-div{
+    width: 1612px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.nav a{
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 12px;
+}
+.nav a:hover{
+    color: #FFF;
+}
+.sp{
+    margin-top: 0px;
+    margin-right: 0.5em;
+    margin-bottom: 0px;
+    margin-left: 0.5em;
+    color: #424242;
+    font-family: sans-serif;
+}
+.topcar{
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin-left: 15px;
+    background-color: #424242;
+}
+.topcar a{
+    margin-left: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #b0b0b0;
+}
+.topcar a:hover{
+    color: #FFF;
+}
+.topLogin{
+    float: right;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+}
+.topLogin a{
+    text-decoration: none;
+    color: #b0b0b0;
+    padding: 0 5px;
+    text-align: center;
+}
+.topLogin a:hover{
+    color: #FFF;
+}
+.topLogin span{
+    float: left;
+}
+.gui-two{
+    padding-top: 40px;
+    height: 100px;
+    color: black;
+    /*background-color: red;*/
+}
+.gui-two-div{
+    width: 1612px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: blue;*/
+}
+.logo{
+    float: left;
+    margin-top: 19px;
+    height: 55px;
+    width: 55px;
+    background-color: #ff6700;
+}
+.logo img{
+    background-image: url(img/milogo.png);
+    width: 30px;height: 20px;
+    padding-top: 18px;
+    padding-left: 13px;
+}
+.nav2{
+    float: left;
+    height: 100px;
+    width: 850px;
+
+}
+.nav2 a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding-left: 20px;
+    line-height: 100px;
+}
+.nav2 a:hover{
+    color: #ff6700;
+}
+.head-search{
+    float: right;
+    height: 100px;
+}
+.search-text{
+    height: 48px;
+    width: 245px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+.search-icon{
+    border: 1px solid #e0e0e0;
+    height: 48px;
+    width: 48px;
+    background-color: #FFF;
+}
+.main-page{
+    width: 1612px;
+    height: 4274px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+.nav-bar{
+    margin-top: 15px;
+    position: relative;
+    height: 50px;
+    color: #616161;
+    background-color: #f5f5f5;
+    display: block;
+}
+.container{
+    width: 1612px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.title{
+    margin: 8px 0 0 0;
+    float: left;
+    display: block;
+}
+.title h2{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #424242;
+}
+.title small{
+    font-size: 12px;
+}
+.title small span{
+    margin: 0 5px;
+    font-family: sans-serif;
+}
+.title h2 small a{
+    color: #757575;
+    text-decoration: none;
+}
+.title h2 small a:hover{
+    color: #ff6700;
+}
+.title a{
+    color: #757575;
+}
+.nav3{
+    float: right;
+    margin: 10px 0 0 0;
+    display: block;
+}
+.nav-switch{
+    margin-right: 10px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #616161;
+}
+.nav-switch a{
+    text-decoration: none;
+    color: #616161;
+}
+.nav-switch a:hover{
+    color: #ff6700;
+}
+.btn btn-gray{
+    background: #b0b0b0;
+    background-color: #b0b0b0;
+    color: #FFF;
+}
+.btn-small{
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+}
+.btn{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #b0b0b0;
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s;
+}
+.separator{
+    color: #eee;
+    font-family: sans-serif;
+}
+.bd{
+    width: 1612px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.content{
+    width: 1612px;
+    margin-top: 100px;
+}
+.webfont1{
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 100px;
+    font-family: 'F51aa4','Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',SimSun,sans-serif;
+}
+.webfont1 span{
+    margin-left: 20px;
+    font-size: 90px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    line-height: 100px;
+    color: #ff3d00;
+    font-family: 'F51aa4','Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',SimSun,sans-serif;
+}
+.webfont2{
+    margin: 0 0 30px;
+    font-size: 32px;
+    font-weight: 1;
+    line-height: 1.25;
+}
+.content a{
+    color: #ff3d00;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.phone-list{
+    width: 1612px;
+    height: 1000px;
+}
+.mipro1{
+    padding-top: 80px;
+}
+.bg1{
+    position: absolute;
+    z-index: 31;
+    top: 1420px;
+}
+.phone-list2{
+    position: relative;
+    width: 1612px;
+    height: 300px;
+    float: left;
+    z-index: 32;
+}
+.phone-list2 div{
+    z-index: 33;
+    float: left;
+    padding-left: 50px;
+    width: 300px;
+    height: 150px;
+}
+.phone-list2 div p{
+    line-height: 100px;
+    color: black;
+    font-size: 20px;
+}
+.mipro2{
+    padding-top: 200px;
+}
+.content-design{
+    position: absolute;
+    top: 2150px;
+    right: 260px;
+    width: 496px;
+    height: 500px;
+    z-index: 31;
+}
+.content-design h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.25;
+    font-family: 'F51aa4','Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',SimSun,sans-serif;
+}
+.content-design h2{
+    color: #757575;
+    margin: -15px 0 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.content-design a{
+    color: #ff6700;
+    text-decoration: none;
+}
+.content-performance{
+    position: absolute;
+    top: 2750px;
+    right: 1100px;
+    width: 496px;
+    height: 500px;
+    z-index: 31;
+    display: block;
+}
+.content-performance h2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.25;
+    padding-left: 60px;
+    font-family: 'F51aa4','Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',SimSun,sans-serif;
+}
+.content-performance p{
+    width: 496px;
+    padding-top: 30px;
+    clear: both;
+    margin: 0 0 30px;
+    line-height: 1.875;
+}
+.content-performance ul{
+    margin: 40px 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 14;
+    color: #424242;
+}
+.content-performance li{
+    border-color: #bdbdbd;
+    color: #333;
+    position: relative;
+    float: left;
+    width: 198px;
+    height: 38px;
+    padding: 18px 0;
+    border: 1px solid #bdbdbd;
+    margin-right: 40px;
+    display: list-item;
+}
+.content-performance li dl{
+    margin: 0;
+    display: block;
+}
+.content-performance li dl dt{
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    width: 60px;
+    margin-left: -30px;
+    line-height: 20px;
+    text-align: center;
+    background: #fff;
+    display: block;
+}
+.content-performance li dl dd{
+    width: 98px;
+    border-right: 1px solid #bdbdbd;
+    float: left;
+    margin: 0;
+    line-height: 19px;
+    text-align: center;
+    display: block;
+}
+.content-performance a{
+    text-decoration: none;
+    color: #ff3d00;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 100px;
+    float: left;
+}
+.mipro3{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 3450px;
+    right: 0px;
+    background-color: #F4F4F4;
+}
+.mipro3 img{
+    padding-top: 130px;
+    padding-right: 0px;
+}
+.content{
+    width: 900px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #424242;
+}
+.content h3{
+    padding-top: 80px;
+    padding-left: 250px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 1.25;
+    font-family: 'F51aa4','Microsoft Yahei','Hiragino Sans GB','Heiti SC','WenQuanYi Micro Hei',SimSun,sans-serif;
+}
+.subtitle-webfont2{
+    padding-top: 150px;
+    margin: -15px 0 30px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.text{
+    margin: 0 0 30px;
+    line-height: 1.875;
+    display: block;
+}
+.text a{
+    cursor: pointer;
+    line-height: 1.875;
+}
+.site-footer{
+    width: 100%;
+    height: 192px;
+    background-color: #FFF;
+}
+.footer{
+    width: 1226px;
+    height: 192px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links{
+    width: 200px;
+    height: 122px;
+    float: left;
+}
+.links a{
+    text-decoration: none;
+    color: #757575;
+    line-height: 30px;
+}
+.links a:hover{
+    color: #ff6700;
+}
+.links dt{
+    line-height: 50px;
+    padding-left: 40px;
+}
+.site-info{
+    height: 166px;
+    background-color: #f5f5f5;
+}
+.info{
+    height: 120px;
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foot-logo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 35px;
+    height: 55px;
+    width: 55px;
+    background-color: #ff6700;
+}
+.foot-logo img{
+    width: 30px;height: 20px;
+    padding-top: 18px;
+    padding-left: 13px;
+}
+.text3{
+    float: left;
+    line-height: 0px;
+    width: 605px;
+    padding-left: 20px;
+    margin-top: 45px;
+}
+.text3 a{
+    text-decoration: none;
+    color: #757575;
+    font-size: 12px;
+}
+.text3 a:hover{
+    color: #ff6700;
+}
+.text span{
+    color: #757575;
+    padding-left: 4px;
+}
+.foot-links{
+    float: left;
+    line-height: 0px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.foot-links a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+.foot-links a:hover{
+    color: #ff6700;
+}
+.footer-end{
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-family: "楷体"
+}
