@@ -47,5 +47,6 @@ public class indexServlet extends HttpServlet {
             request.getRequestDispatcher("/registered.jsp").forward(request,response);
         }
 
+
     }
 }
